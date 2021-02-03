@@ -1,69 +1,25 @@
-var words = ['Rock', 'Paper', 'Scissors'];
-var word = words[Math.floor(Math.random() * words.length - 1)];
+button1 = document.getElementById("btn1")
 
+function randomword(){
+    let words = ['Dog', 'Cat', 'Frog', 'Rat', 'Gerbil'];
+    let word = words[Math.floor(Math.random() * 5)];
+    return word;
+     
+};
 
-// let fontchanger = document.getElementsByClassName("shift");
-// console.log(fontchanger);
-
-// for (i=0; i<fontchanger.length; i++){
-//     fontchanger[i].style.fontFamily="Arial";
-
-// }
-
-
-
-
-
-// myColors = ["red", "blue", "yellow", "green", "purple"];
-// for (i=0; i<myColors.lenth; i++) {
-//     console.log(myColors[i]);
-// }
-// let myInput = document.getElementById("usernumber");
-
-
-// // console.log(myInput)
-
-// let submission = document.getElementById("submit"); 
-// let reset = document.getElementById("back");
-
-
-// myInput.addEventListener("click", function(){
-//     userinput = myInput;
-//     submission.setAttribute("style", "background-color:blue");
-//     reset.setAttribute("style", "");
-//     console.log(myInput);
-
-// })
+button1.onclick = function() {
+    document.getElementById("txtOutput").innerHTML = randomword()
+}
 
 
 
-// reset.addEventListener("click", function(){
-//     userinput = 0
-//     reset.setAttribute("style", "background-color:white")
-//     submission.setAttribute("style", "")
-//     console.log(userinput)
-// })
+// let txtOutput = document.getElementById("txtOutput");
 
 
+// var name = txtName.value;
+// txtOutput.value 
 
 
+// alert("The script chose: " + myFunction);
 
-// let fontchanger = document.getElementsByClassName("fontshift");
-// console.log(fontchanger);
-
-// for(i=0;i<fontchanger.length;i++){
-//    fontchanger[i].font-style
-//    ="serif";
-// }
-
-
-
-// if (usernumber<11){
-//   console.log("you have reached option 1");
-// }
-// else if (usernumber>11 && usernumber<33){
-//     console.log("you have reached option 2");
-// }   
-// if (usernumber == 11){
-//   console.log("you win! you chose the correct number");
-// }
+    
