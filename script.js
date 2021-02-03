@@ -1,10 +1,14 @@
-let fontchanger = document.getElementsByClassName("shift");
-console.log(fontchanger);
+var words = ['Rock', 'Paper', 'Scissors'];
+var word = words[Math.floor(Math.random() * words.length - 1)];
 
-for (i=0; i<fontchanger.length; i++){
-    fontchanger[i].style.fontFamily="Arial";
 
-}
+// let fontchanger = document.getElementsByClassName("shift");
+// console.log(fontchanger);
+
+// for (i=0; i<fontchanger.length; i++){
+//     fontchanger[i].style.fontFamily="Arial";
+
+// }
 
 
 
